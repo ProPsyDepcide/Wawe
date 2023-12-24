@@ -18,79 +18,35 @@ body{
     margin: 10px 260px;
 }
 
+.homepage{
+    position: relative;
+}
+
 nav{
     display: flex;
     align-items: center;
     gap: 50px;
 }
 
-.links{
-    transition: 3,8s;
+nav>a{
     text-decoration: none;
     color: white;
+
 }
 
-.linkss{
-    transition: 3,8s;
-    text-decoration: none;
-    color: white;
-}
-
-.linkst{
-    transition: 3,8s;
-    text-decoration: none;
-    color: white;
-}
-
-.linksf{
-    transition: 3,8s;
-    text-decoration: none;
-    color: white;
-}
-
-.linksfi{
-    transition: 3,8s;
-    text-decoration: none;
-    color: white;
-}
-
-.linkssi{
-    transition: 3,8s;
-    text-decoration: none;
-    color: white;
-}
-
-:hover>.links{
+nav>a:hover{
     border-bottom: solid 3px #00B2A0;
 }
-
-:hover>.linkss{
-    border-bottom: solid 3px #00B2A0;
-}
-
-:hover>.linkst{
-    border-bottom: solid 3px #00B2A0;
-}
-
-:hover>.linksf{
-    border-bottom: solid 3px #00B2A0;
-}
-
-:hover>.linksfi{
-    border-bottom: solid 3px #00B2A0;
-}
-
-:hover>.linkssi{
-    border-bottom: solid 3px #00B2A0;
-}
-
 
 .name{
+    padding-top: 200px;
+    margin-top: 100px;
     text-align: center;
 }
 
 .biglogo{
-    margin: 100px 370px 50px;
+    position: absolute;
+    right: 380px;
 }
 
 .hz{
