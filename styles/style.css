@@ -1,0 +1,99 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+body{
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-image: url("/images/Group\ 4.png");
+}
+
+.head{
+    display: flex;
+    align-items: center;
+    gap: 80px;
+    margin: 10px 260px;
+}
+
+nav{
+    display: flex;
+    align-items: center;
+    gap: 50px;
+}
+
+.links{
+    transition: 3,8s;
+    text-decoration: none;
+    color: white;
+}
+
+.linkss{
+    transition: 3,8s;
+    text-decoration: none;
+    color: white;
+}
+
+.linkst{
+    transition: 3,8s;
+    text-decoration: none;
+    color: white;
+}
+
+.linksf{
+    transition: 3,8s;
+    text-decoration: none;
+    color: white;
+}
+
+.linksfi{
+    transition: 3,8s;
+    text-decoration: none;
+    color: white;
+}
+
+.linkssi{
+    transition: 3,8s;
+    text-decoration: none;
+    color: white;
+}
+
+:hover>.links{
+    border-bottom: solid 3px #00B2A0;
+}
+
+:hover>.linkss{
+    border-bottom: solid 3px #00B2A0;
+}
+
+:hover>.linkst{
+    border-bottom: solid 3px #00B2A0;
+}
+
+:hover>.linksf{
+    border-bottom: solid 3px #00B2A0;
+}
+
+:hover>.linksfi{
+    border-bottom: solid 3px #00B2A0;
+}
+
+:hover>.linkssi{
+    border-bottom: solid 3px #00B2A0;
+}
+
+
+.name{
+    text-align: center;
+}
+
+.biglogo{
+    margin: 100px 370px 50px;
+}
+
+.hz{
+    margin-top: 130px;
+    margin-left: 680px;
+}
